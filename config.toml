@@ -6,6 +6,8 @@ theme = "PaperMod"
 [params]
     title = 'Trish & Elty'
     description = 'Hit the road with us in our converted 2016 Ram Promaster'
+    defaultTheme = 'auto'
+    disableThemeToggle = true
 
 [params.assets]
     favicon = "favicon.png"

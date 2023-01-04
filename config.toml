@@ -1,3 +1,15 @@
 baseURL = 'http://trishandelty.com'
 languageCode = 'en-us'
 title = 'Trish & Elty'
+theme = "paper-mod"
+
+[params]
+    title = 'Trish & Elty'
+    description = 'Hit the road with us in our converted 2016 Ram Promaster'
+
+[params.assets]
+    favicon = "favicon.png"
+
+[params.homeInfoParams]
+    Title = "We're tidying up."
+    Content = "Be with you in a minute!"

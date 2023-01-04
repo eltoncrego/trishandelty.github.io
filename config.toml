@@ -11,3 +11,9 @@ theme = "PaperMod"
 
 [params.assets]
     favicon = "favicon.png"
+
+[[menu.main]]
+    identifier = 'about'
+    name = 'about'
+    url = '/about'
+    weight =  10

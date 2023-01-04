@@ -11,7 +11,3 @@ theme = "PaperMod"
 
 [params.assets]
     favicon = "favicon.png"
-
-[params.homeInfoParams]
-    Title = "We're tidying up."
-    Content = "Be with you in a minute!"

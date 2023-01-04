@@ -1,7 +1,7 @@
 baseURL = 'http://trishandelty.com'
 languageCode = 'en-us'
 title = 'Trish & Elty'
-theme = "paper-mod"
+theme = "PaperMod"
 
 [params]
     title = 'Trish & Elty'

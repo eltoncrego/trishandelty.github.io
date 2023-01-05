@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="article">
+    <div class="article__header">
+        <button class="button--tertiary article__back" onclick="history.back()">&leftarrow; go back</button>
+        <h2 class="article__title">{{ .Title }}</h2>
+        {{ if eq .Params.type "vertical"}}
+            {{ $heroImage := resources.Get .Params.image }}
+            <div class="article__hero-image" style="background-image: url({{ $heroImage.RelPermalink }}); height: 300px; background-size: cover; background-position: center;"></div>
+        {{ else }}
+            {{ $heroImage := resources.Get .Params.image }}
+            <img class="article__hero-image" src="{{ $heroImage.RelPermalink }}">
+        {{ end }}
+        <div class="article__metadata">
+            <p>Updated: {{ .Date.Format "January 2, 2006" }}</p>
+            <p>Written By: {{ .Params.author }}</p>
+        </div>
+    </div>
+    <section class="article__content">
+        {{ .Content }}
+    </section>
+</article>
+{{ end }}

@@ -6,7 +6,7 @@ date: 2023-01-05
 
 ![A picture of Trish in her hometown](/images/trish.jpg "A picture of Trish in her hometown")
 
-Trish is a Student who graduated in 2022 from UC Berkeley with a degree in Environmental Biology. She currently works as a veterinary technician at a local vet clinic in Berkeley. She plans to attend vet school in the fall and become a doctor of veterinary medicine (DVM) with a specialization in exotic animal medicine. Her ultimate goal is to utilize her education to help study animal species in africa to help make a positive environmental impact. Her interests include Surfing, Climbing, Lifting, Being Outdoors, and taking care of our dog, Pickle.
+Trish recently graduated in 2022 from UC Berkeley with a degree in Molecular Environmental Biology. She currently works as a veterinary assistant and plans to attend vet school in the fall to become a doctor of veterinary medicine (DVM). Her ultimate goal is to utilize her education to help animals and people whilst improving the environment. Her interests include Surfing, Climbing, Lifting, Being Outdoors, and taking care of our dog, Pickle.
 
 ![A picture of Elty in his hometown](/images/elty.jpg "A picture of Elty in his hometown")
 

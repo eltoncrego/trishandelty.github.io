@@ -1,0 +1,46 @@
+// Spacing
+$spacing-1: 8px;
+$spacing-2: 16px;
+$spacing-3: 24px;
+$spacing-4: 32px;
+$spacing-5: 64px;
+
+// Style Variables
+$card_width: 300px;
+$row_increment: 10px;
+
+.article-preview {
+    max-width: $card_width;
+    margin-bottom: $spacing-4;
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, $card_width);
+        column-gap: $spacing-4;
+        row-gap: $spacing-4;
+    }
+
+    &__hero-image {
+        margin-bottom: $spacing-2;
+    }
+
+    &__title {
+        text-decoration: none;
+        margin-bottom: $spacing-1;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .article-preview {
+        max-width: 100%;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

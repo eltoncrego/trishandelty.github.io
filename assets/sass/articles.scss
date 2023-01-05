@@ -6,16 +6,27 @@ $spacing-4: 32px;
 $spacing-5: 64px;
 
 $article-title-size-desktop: 24px;
-$article-title-size-mobile: 18px;
+$article-subheader-size-desktop: 18px;
 $article-font-size-desktop: 12px;
-$article-font-size-mobile: 10px;
 
 
 .article {
     font-size: $article-font-size-desktop;
 
+    &__back {
+        margin-bottom: $spacing-1;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
     &__header {
         margin-bottom: $spacing-4;
+    }
+
+    &__hero-image { 
+        margin-bottom: $spacing-3;
     }
 
     &__title {
@@ -25,11 +36,16 @@ $article-font-size-mobile: 10px;
 
     &__content {
         & p {
-            margin-bottom: $spacing-4;
+            margin-bottom: $spacing-2;
         }
 
         & img {
             width: 100%;
+        }
+
+        & h3 {
+            font-size: $article-subheader-size-desktop;
+            margin-bottom: $spacing-1;
         }
     }
 }

@@ -1,13 +1,12 @@
 {{ define "main" }}
-<article class="article">
-    <div class="article__header">
-        <h2 class="article__title">{{ .Title }}</h2>
-        <div class="article__metadata">
-            <span>Updated: {{ .Date.Format "January 2, 2006" }}</span>
-        </div>
-    </div>
-    <section class="article__content">
-        {{ .Content }}
-    </section>
-</article>
+<div class="article-preview__container">
+  {{ range sort (.Site.GetPage "section" "blog").Pages .Params.Date "desc" }}
+  <div class="article-preview">
+    {{ $heroImage := resources.Get .Params.image }}
+    <img class="article-preview__hero-image" src="{{ $heroImage.RelPermalink }}">
+    <h2><a class="article-preview__title" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Date.Format "January 2, 2006" }}</p>
+  </div>
+  {{ end }}
+</div>
 {{ end }}

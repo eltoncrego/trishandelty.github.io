@@ -6,9 +6,6 @@ $subtitle-size-mobile: 18px;
 $font-size-desktop: 12px;
 $font-size-mobile: 10px;
 
-// Breakpoints
-$breakpoint-md: 768px;
-
 // Spacing
 $spacing-1: 8px;
 $spacing-2: 16px;
@@ -21,17 +18,35 @@ $spacing-5: 64px;
     color: #000;
 }
 
-.view {
-    padding: $spacing-5;
+.main {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__content {
+        flex: 1;
+        flex-basis: 300px;
+        margin: $spacing-5;
+        margin-left: 0;
+    }
 }
 
 .site-logo {
+    &>a {
+        text-decoration: none;
+    }
+
     font-size: $logo-size-desktop;
     margin-bottom: $spacing-2;
 }
 
 .hero {
     text-align: left;
+    align-self: flex-start;
+    flex-basis: 400px;
+    margin: $spacing-5;
+    position: sticky;
+    position: -webkit-sticky;
+    top: $spacing-5;
 }
 
 .hero__subtitle {
@@ -48,6 +63,11 @@ $spacing-5: 64px;
     }
 }
 
+.hero__menu-link {
+    text-transform: lowercase;
+    margin-bottom: $spacing-1;
+}
+
 .button--tertiary {
     font-weight: 700;
     font-style: italic;
@@ -55,13 +75,16 @@ $spacing-5: 64px;
     font-size: $font-size-desktop;
 }
 
-@media screen and (max-width: 768px) {
-    .view {
-        padding: $spacing-4;
-    }
-
+@media screen and (max-width: 900px) {
     .site-logo {
         font-size: $logo-size-mobile;
+    }
+
+    .hero {
+        flex-basis: 100vw;
+        margin: $spacing-4;
+        position: relative;
+        top: 0;
     }
 
     .hero__subtitle {
@@ -72,8 +95,12 @@ $spacing-5: 64px;
         font-size: $font-size-mobile;
     }
 
+    .main__content {
+        margin: $spacing-4;
+        margin-left: $spacing-4;
+    }
+
     .button--tertiary {
         font-size: $font-size-mobile;
     }
-
 }

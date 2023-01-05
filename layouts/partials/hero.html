@@ -11,5 +11,13 @@
         <p>hers: <a href={{site.Params.herLink}}>@trish_lai</a></p>
         <p>pickle's: <a href={{site.Params.pickleLink}}>@theshadeywiener</a></p>
     </div>
-    <a class="button--tertiary" href="{{site.Params.newsletterLink}}" >subscribe to our newsletter here &rightarrow;</a>
+    <div class="hero__copy-section">
+        <ul class="hero__menu">
+            <li class="hero__menu-link"><a class="button--tertiary" href="{{site.Params.newsletterLink}}">subscribe to our newsletter here
+                &rightarrow;</a></li>
+            {{ range site.Params.navlinks }}
+            <li class="hero__menu-link"><a class="button--tertiary" href="{{ absURL .url }}">{{ .name }} &rightarrow;</a></li>
+            {{ end }}
+        </ul>
+    </div>
 </div>

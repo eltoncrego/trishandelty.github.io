@@ -9,7 +9,12 @@
 </head>
 
 <body class="view">
-    {{ block "main" . }}{{ end }}
+    <div class="main">
+        {{ partial "hero.html" }}
+        <div class="main__content">
+            {{ block "main" . }}{{ end }}
+        </div>
+    </div>
 </body>
 
 </html>

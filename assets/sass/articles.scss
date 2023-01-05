@@ -1,0 +1,35 @@
+// Spacing
+$spacing-1: 8px;
+$spacing-2: 16px;
+$spacing-3: 24px;
+$spacing-4: 32px;
+$spacing-5: 64px;
+
+$article-title-size-desktop: 24px;
+$article-title-size-mobile: 18px;
+$article-font-size-desktop: 12px;
+$article-font-size-mobile: 10px;
+
+
+.article {
+    font-size: $article-font-size-desktop;
+
+    &__header {
+        margin-bottom: $spacing-4;
+    }
+
+    &__title {
+        font-size: $article-title-size-desktop;
+        margin-bottom: $spacing-1;
+    }
+
+    &__content {
+        & p {
+            margin-bottom: $spacing-4;
+        }
+
+        & img {
+            width: 100%;
+        }
+    }
+}

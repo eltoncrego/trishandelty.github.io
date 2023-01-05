@@ -7,11 +7,3 @@ newsletterLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdJbLHj8AUT8i0XxxCNdT
 hisLink = "https://www.instagram.com/eltypls/"
 herLink = "https://www.instagram.com/trish_lai/"
 pickleLink = "https://www.instagram.com/theshadeywiener/"
-
-[[params.navlinks]]
-  name = "Home"
-  url = "/"
-
-[[params.navlinks]]
-  name = "About"
-  url = "about/"

@@ -1,8 +1,7 @@
 ---
 title: "About Trish and Elty"
 description: "Everything you need to know about Trish, Elty, and their wiener dog Pickle."
-image: ""
-tags: []
+date: 2023-01-05
 ---
 
 ![A picture of Trish in her hometown](/images/trish.jpg "A picture of Trish in her hometown")

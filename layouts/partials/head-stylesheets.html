@@ -1,5 +1,7 @@
 {{ $resetStyle := resources.Get "sass/reset.scss" | resources.ToCSS | resources.Minify }}
 {{ $mainStyle := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
+{{ $articlesStyle := resources.Get "sass/articles.scss" | resources.ToCSS | resources.Minify }}
 
 <link rel="stylesheet" href="{{ $resetStyle.Permalink }}">
 <link rel="stylesheet" href="{{ $mainStyle.Permalink }}">
+<link rel="stylesheet" href="{{ $articlesStyle.Permalink }}">

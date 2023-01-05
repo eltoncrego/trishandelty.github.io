@@ -1,0 +1,5 @@
+{{ if isset .Params "title" }}
+<title>{{ .Title }} | {{ site.Title }}</title>
+{{ else }}
+<title>{{ site.Title }}</title>
+{{ end }}

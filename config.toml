@@ -1,3 +1,6 @@
 baseURL = 'http://trishandelty.com'
 languageCode = 'en-us'
 title = 'Trish & Elty'
+
+[params]
+newsletterLink = 'https://docs.google.com/forms/d/e/1FAIpQLSdJbLHj8AUT8i0XxxCNdTzYBLo1vRlDIlJJUYoBzzkkmR-OGQ/viewform'

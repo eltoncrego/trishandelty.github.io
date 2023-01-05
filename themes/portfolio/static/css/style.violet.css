@@ -331,8 +331,6 @@ SIDEBAR + RIGHT COLUMN
 }
 .sidebar-heading {
   font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 .sidebar-heading a {
   color: #000;
@@ -433,8 +431,6 @@ SIDEBAR + RIGHT COLUMN
 .small-navbar-heading {
   float: right;
   font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   margin-top: 10px;
 }
 .small-navbar-heading a {

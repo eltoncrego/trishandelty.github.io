@@ -23,6 +23,6 @@ To sum it up, we love camping, minimalism, and simplicity. We also haven't had m
 ### What's Next?
 We've had an incredible couple of years in Oakland, CA. It's where Trish & Elty met, moved in together, and made unforgettable memories with our bestest friends. However, our lease ends at the end of January and our first stop is a ski/snowboarding trip at Copper Mountain Resort in Colorado. 
 
-FAfterwards, we'd like to take our time to re-vist all the National Parks in Utah together. Then, we'll make our way down to Arizona and visit Saguaro NP and the Grand Canyon. 
+Afterwards, we'd like to take our time to re-vist all the National Parks in Utah together. Then, we'll make our way down to Arizona and visit Saguaro NP and the Grand Canyon. 
 
 Given that Trish's family is in San Diego, our home base will be alongside various San Diego beaches using our "California Explorer" State Park Annual Pass.

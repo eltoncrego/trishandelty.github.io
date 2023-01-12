@@ -11,7 +11,7 @@
             <img class="article__hero-image" src="{{ $heroImage.RelPermalink }}">
         {{ end }}
         <div class="article__metadata">
-            <p>Updated: {{ .Date.Format "January 2, 2006" }}</p>
+            <p>{{ .Date.Format "January 2, 2006" }}</p>
             <p>Written By: {{ .Params.author }}</p>
         </div>
     </div>

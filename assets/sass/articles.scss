@@ -45,6 +45,10 @@ $article-font-size-desktop: 12px;
 
         & img {
             width: 100%;
+
+            &:not(:first-of-type) {
+                padding-top: $spacing-2;
+            }
         }
 
         & h3 {
@@ -63,6 +67,10 @@ $article-font-size-desktop: 12px;
             flex-basis: 350px;
             min-width: 300px;
             flex: 1;
+
+            &--with-spacing {
+                margin-top: $spacing-2;
+            }
         }
 
         &--reverse {
